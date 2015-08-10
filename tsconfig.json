@@ -1,0 +1,39 @@
+{
+    "ide": {
+        "compileOnSave": false
+    },
+    "compileOnSave": false,
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "es5",
+        "sourceMap": true,
+        "jsx": "react",
+        "removeComments": true
+    },
+    "formatCodeOptions": {
+        "indentSize": 4,
+        "tabSize": 4,
+        "newLineCharacter": "\r\n",
+        "convertTabsToSpaces": true,
+        "insertSpaceAfterCommaDelimiter": true,
+        "insertSpaceAfterSemicolonInForStatements": true,
+        "insertSpaceBeforeAndAfterBinaryOperators": true,
+        "insertSpaceAfterKeywordsInControlFlowStatements": true,
+        "insertSpaceAfterFunctionKeywordForAnonymousFunctions": true,
+        "insertSpaceAfterOpeningAndBeforeClosingNonemptyParenthesis": false,
+        "placeOpenBraceOnNewLineForFunctions": false,
+        "placeOpenBraceOnNewLineForControlBlocks": false
+    },
+    "filesGlob": [
+        "./develop/**/*.ts",
+        "./develop/**/*.tsx"
+    ],
+    "files": [
+        "./develop/actions/ViewActions.ts",
+        "./develop/constants/Constants.ts",
+        "./develop/dispatcher/Dispatcher.ts",
+        "./develop/stores/ClickStore.ts",
+        "./develop/components/ClickCounter.tsx",
+        "./develop/index.tsx"
+    ]
+}

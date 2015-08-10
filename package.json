@@ -1,0 +1,37 @@
+{
+  "name": "react-flux-webpack-typescript-boilerplate",
+  "version": "0.0.0",
+  "description": "React Flux Webpack Typescript Boilerplate",
+  "scripts": {
+    "postinstall": "tsd install",
+    "start": "gulp",
+    "build": "gulp webpack"
+  },
+  "author": "viviljp",
+  "license": "MIT",
+  "devDependencies": {
+    "browser-sync": "^2.8.2",
+    "events": "^1.0.2",
+    "flux": "^2.0.3",
+    "gulp": "^3.9.0",
+    "gulp-util": "^3.0.6",
+    "react": "^0.13.3",
+    "ts-loader": "^0.5.0",
+    "tsd": "^0.6.3",
+    "typescript": "^1.6.0-dev.20150810",
+    "webpack": "^1.11.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:viviljp/react-flux-webpack-typescript-boilerplate.git"
+  },
+  "keywords": [
+    "react",
+    "typescript",
+    "webpack"
+  ],
+  "bugs": {
+    "url": "https://github.com/viviljp/react-flux-webpack-typescript-boilerplate/issues"
+  },
+  "homepage": "https://github.com/viviljp/react-flux-webpack-typescript-boilerplate#readme"
+}
